@@ -1,0 +1,117 @@
+body {
+	background-color:#FBEDFA ;
+	color: black;
+	font-family: 'Cantarell', sans-serif; 
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Cantarell', sans-serif;
+}
+h1 {
+	color: #cc0e74;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2 {
+	color: #cc0e74;
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: 500;
+}
+a {
+	font-family: 'Cantarell', sans-serif;
+	text-decoration: none;
+	color: #790c5a
+	font-weight: 600;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #B9BBAF;
+}
+a:hover {
+	color: #000000;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	padding: 10px 0;
+
+}
+
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-purple  {
+	background-color: purple;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-purple:hover {
+	background-color: black;
+	color: white;
+}
+.btn-purple2  {
+	background-color: purple;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+.btn-purple2:hover {
+	background-color: black;
+	color: white;	
+}
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i:hover {
+	font-size: 30px;
+	color: black
+	padding: 0px;
+
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#first_container {
+	width: 750px;
+	background-color: white;
+	margin: 100px auto;
+}
+#cooking {
+	color: #cc0e74;
+	font-size: 20px;
+	font-weight: bold;
+	font-weight: 500;
+}
